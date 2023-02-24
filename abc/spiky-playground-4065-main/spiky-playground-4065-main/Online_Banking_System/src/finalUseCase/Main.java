@@ -14,7 +14,6 @@ import com.Model.Customer;
 import com.Model.Transactions;
 
 public class Main {
-	
 	static Scanner sc = new Scanner(System.in);
 	
 	public static void accountantMenu() {
@@ -103,6 +102,7 @@ public class Main {
 					
 					System.out.println(ConsoleColors.RED_BACKGROUND_BRIGHT+e.getMessage()+ConsoleColors.RESET);
 					accountantMenu();
+					
 				}
 				
 				
@@ -523,11 +523,7 @@ public class Main {
 	
 	
 	public static void main(String[] args) {
-		
-		
-		
 		menu();
-		
 	}
 
 }

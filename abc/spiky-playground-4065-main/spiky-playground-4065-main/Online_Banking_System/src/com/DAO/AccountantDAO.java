@@ -22,4 +22,5 @@ public interface AccountantDAO {
 	public List<Transactions> viewTransaction(int accountNumber) throws CustomerException;
 	public List<Transactions> viewTransaction() throws CustomerException;
 	public int getAccountNumberUsingEmail(String email) throws CustomerException;
+	
 }

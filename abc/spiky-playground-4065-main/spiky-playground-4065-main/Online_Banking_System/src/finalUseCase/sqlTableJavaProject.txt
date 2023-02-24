@@ -1,5 +1,3 @@
-
-
 //creating table customer
 
 create table customer(
@@ -28,7 +26,7 @@ accName varchar(30) NOT NULL
 
 
 create table transactions(
-transactionId int primary key AUTO_INCREMENT,
+transactionId  int primary key AUTO_INCREMENT,
 accountNumber bigint,
 deposit bigint,
 withdraw bigint,
